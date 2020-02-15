@@ -1,0 +1,7 @@
+---
+#@See https://dotlayer.com/how-to-use-an-ansible-playbook-to-install-wordpress/     #### FULL GUIDE FOR LAMP
+- hosts: ubuntu
+  become: yes
+  roles:
+     - deploy-postgres
+...
